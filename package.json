@@ -1,0 +1,13 @@
+{
+  "name": "ethsigner",
+  "version": "1.0.0",
+  "main": "scripts/index.js",
+  "repository": "https://github.com/lyrx/ethsigner.git",
+  "author": "alex <enna@mailbox.org>",
+  "license": "MIT",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.9.1"
+  }
+}
