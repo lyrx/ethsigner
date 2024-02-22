@@ -1,7 +1,7 @@
 {
   "name": "ethsigner",
   "version": "1.0.0",
-  "main": "scripts/index.js",
+  "main": "scripts/signatures.js",
   "repository": "https://github.com/lyrx/ethsigner.git",
   "author": "alex <enna@mailbox.org>",
   "license": "MIT",
