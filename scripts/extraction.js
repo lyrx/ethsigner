@@ -5,8 +5,6 @@ const path = require('path');
 
 
 module.exports = {
-
-
     extractEPUBToTempDirectory:   async function (epubFilePath) {
         const data = await fs.readFile(epubFilePath);
         const zip = await JSZip.loadAsync(data);
