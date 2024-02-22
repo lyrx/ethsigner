@@ -2,7 +2,7 @@
 
 - Treat ebooks like books, limiting them to a specific  number of copies
 - There will be a script automatically editing each book by adding a signature based on 
-  an Ethereum address, plus a unique serial number.
+  an Ethereum address alongside the epub, plus injecting a unique serial number directly into the epub.
     - That will make the hash value of each copy unique.
     - Each copy can subsequently be uploaded to IPFS, maintaining uniqueness
 - Finally this project will contain scripts providing a process similar to a signing and printing 
