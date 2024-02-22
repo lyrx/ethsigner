@@ -10,40 +10,33 @@ function signHash(hash, privateKey) {
 }
 
 function readDocument(filePath) {
-    try {
-        return fs.readFileSync(filePath, 'utf8');
-    } catch (error) {
-        console.error('Fehler beim Lesen der Datei:', error);
-        return null;
-    }
+
+    return fs.readFileSync(filePath, 'utf8');
+
 }
 
 
 module.exports = {
 
-    signDocument:  async function (document) {
-        return await new ethers.
-        Wallet(process.env.PRIVATE_KEY).
-        signMessage(crypto.createHash('sha256').update(document).digest('hex'));
+    signDocument: async function (document) {
+        const hashedDocument = crypto.createHash('sha256').update(document).digest('hex')
+        return {
+            path: document,
+            hash: hashedDocument,
+            signature: await new ethers.Wallet(process.env.PRIVATE_KEY).signMessage(hashedDocument)
+        };
     },
 
+    verifyDocument: async function (hashedDocument, signature) {
+        return ethers.verifyMessage(hashedDocument, signature, process.env.PUBLIC_KEY)
+    },
 
     signAndVerifyMessage: async function (document) {
-        const privateKey = process.env.PRIVATE_KEY;
-        const publicKey = process.env.PUBLIC_KEY;
-
-        const hashedDocument = crypto.createHash('sha256').update(document).digest('hex');
-        const wallet = new ethers.Wallet(privateKey);
-        const signature = await wallet.signMessage(hashedDocument);
-        const recoveredAddress = ethers.verifyMessage(hashedDocument, signature, publicKey);
-
-        if (recoveredAddress === publicKey) {
-            return true;
-        } else {
-           return false;
-        }
-
-
+        const signData = await this.signDocument(document)
+        const recoveredAddress = await this.verifyDocument(
+            signData.hash, signData.signature
+        )
+        return  (recoveredAddress === process.env.PUBLIC_KEY ?  true : false)
     }
 }
 
