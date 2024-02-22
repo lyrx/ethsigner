@@ -2,3 +2,4 @@
 .env
 node_modules
 Readme_local.md
+env.sh
