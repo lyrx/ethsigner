@@ -2,12 +2,13 @@
 ![](library.webp)
 
 There is a misconception that has not been overcome since we can
-send and store knowledge digitally.
+send and store information digitally.
 
-It is mistakenly believed that **books** can exist in the internet, as they
+It is mistakenly believed that **books** can exist as **ebooks**  in the internet,
+just as their physical cousins
 can on a book shelf.
 
-For this wrongful purpose, the **electronic book** or **ebook** was invented.
+For this wrongful purpose, the **electronic book** or was invented.
 
 But in the internet,  **ebook** is merely a metaphor -- and a false one at that.
 There is no *analogue* to books in the digital world.
