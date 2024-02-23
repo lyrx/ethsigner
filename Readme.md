@@ -30,16 +30,8 @@ This project will apply the concepts of the Web3 world to text as intellectual p
 Intellectual property can be a business again: **The Galactic Library
 Of Intellectual Property** has come to the rescue.
 
-
-# ebooks
-
-We will **dissolve** ebooks and make them accessable and tradable using
-a database. 
-
-I started this project with a simple signature verification function. 
-This has instructional value only. Later on signatures will be dealed with internally by an NFT.
-
-This project is to **sell content, not ebooks.**
+This library will **dissolve** ebooks and make them accessable and tradable in slices, using
+a database: **Sell content, not ebooks.**
 
 # Further reading:
 
