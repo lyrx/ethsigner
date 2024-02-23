@@ -1,4 +1,24 @@
-# A Digital Printing Machine
+# The Galactic Library Of Intellectual Property
+
+Es gibt einen Denkfehler, der bis heute beim Übergang von gedruckten Büchern
+zu digitalen Inhalten nicht überwunden worden ist. 
+
+Die Art und Weise, wie im Internet Informationen aufbewahrt und verbreitet
+werden, ist durch das Netz völlig anders geworden. Zuvor waren
+**Bücher** der entscheidende Informationsträger. 
+Aber das **elektronische Buch** oder **ebook** ist eine blosse Metapher, mit der
+versucht worden ist, ein konventionelles Medium möglichst wenig verändert in das
+digitale Zeitalter zu übernehmen. Aber dieser Versuch ist gescheitert, da er zu
+wenig der technologischen Entwicklung unserer Zeit Rechnung trägt.
+
+
+
+
+
+
+
+
+# ebooks
 
 - Treat ebooks like books, limiting them to a specific  number of copies
 - There will be a script automatically editing each book by adding a signature based on 
