@@ -34,17 +34,16 @@ Of Intellectual Property** has come to the rescue.
 This library will **dissolve** ebooks and make them accessable and tradable in slices, using
 a database: **Sell content, not ebooks.**
 
-# Fallbeispiel: Ein Roman von Charles Dickens.
+# Case Study: A Novel by Charles Dickens.
 
-Der Roman *Great Expectations* von Charles Dickens liegt als freies **ebook** vor. Das Urheberrecht des Autors ist
-inzwischen abgelaufen. Damit eignet sich dieser Klassiker als Fallbeispiel
-für die **GlIP** (*Galactic Library
+The novel *Great Expectations* by Charles Dickens is available as a free **ebook**. The author's copyright has
+expired. This makes this classic a suitable case study
+for the **GLIP** (*Galactic Library
 Of Intellectual Property*).
 
-Das *ebook* wird extrahiert und seine Bestandteile in eine MongoDB-Datenbank übertragen. An geeigneter Stelle
-werden dabei Metadaten zum Content hinzugefügt. Diese Metadaten 
-ermöglichen die Verknüpfung des Romans mit einem **NFT**.-
-
+The *ebook* is extracted and its components are transferred to a MongoDB database. At appropriate points,
+metadata about the content is added. This metadata
+enables the novel to be linked with an **NFT**.
 
 # Further reading:
 
