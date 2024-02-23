@@ -8,7 +8,7 @@ It is mistakenly believed that **books** can exist as **ebooks**  in the interne
 just as their physical cousins
 can on a book shelf.
 
-For this wrongful purpose, the **electronic book** or was invented.
+For this wrongful purpose, the **electronic book**  was invented.
 
 But in the internet,  **ebook** is merely a metaphor -- and a false one at that.
 There is no *analogue* to books in the digital world.
