@@ -1,36 +1,34 @@
 # The Galactic Library Of Intellectual Property
+![](library.webp)
 
-Es gibt einen Denkfehler, der bis heute bei der Vermittlung von
-Wissen über das Internet nicht überwunden worden ist.
+There is a misconception that has not been overcome since we can
+send and store knowledge digitally.
 
-Man hält fälschlicherweise an dem Irrglauben fest, die über Jahrhunderte
-bewährte Methode, wissen zu speichern und weiter zu geben, liesse sich
-auf einfache Weise ins Internet übertragen: **Bücher**.
+It is mistakenly believed that **books** can exist in the internet, as they
+can on a book shelf.
 
-Zu diesem Zweck ist das **elektronische Buch** bzw. das **ebook**
-erfunden worden.
+For this wrongful purpose, the **electronic book** or **ebook** was invented.
 
-Aber im Internet ist das **ebook**
-eine blosse Metapher -- und eine falsche noch dazu.
-Es gibt kein *Analogon* zu Büchern in der digitalen Welt.
-Die Metapher vom **ebook* macht deshalb keinen Sinn.
+But in the internet,  **ebook** is merely a metaphor -- and a false one at that.
+There is no *analogue* to books in the digital world.
+The metaphor of the **ebook** just makes no sense.
 
-Während die Speicherung und Übertragung von Informationen heute viel einfacher
-geworden sind, gingen gleichzeitig einige wertvolle Vorteile des gedruckten Buchs verloren:
+Storage and transmission of information have become much simpler today,
+but some valuable benefits of the printed book have been lost:
 
-- Ein gedrucktes Buch kann einfach als Ware gehandelt werden. Bei digitaler Information 
-  haben wir jedoch eine völlig andere Situation
-- Geistiges Eigentum liess sich über Bücher bzw. Dokumente klar definieren und schützen. Im
-  Internet dagegen kann jede Information viel leichter kopiert oder verändert werden, als das
-  bisher der Fall gewesen ist. Es ist deshalb viel schwerer geworden, mit geistigem Eigentum
-  Handel zu betreiben oder es auch nur zu definieren.
-  
-Allerdings haben wir heute eine Technologie zur Verfügung, über die geistiges Eigentum auch
-in der digitalen Wert klar definiert werden kann. Zudem kann damit auch wieder Handel betrieben werden:
-**Die Blockchain** 
+- A printed book can be easily traded as a commodity. With digital information,
+  however, we have a completely different situation. Why should one pay for something
+  that cannot be touched or carried away?
+- Intellectual property could be clearly defined and protected through books or
+  documents. On the internet, however, any information can be copied or altered
+  much more easily than has been the case before. 
 
-Dieses Projekt wendet die Konzepte der Web3-Welt auf Text als geistiges Eigentum an. Geistiges
-Eigentum wird wieder ein Produkt, mit dem gehandelt werden kann: **The Galactic Library Of Intellectual Property**.
+However, today we have a technology available that can clearly define intellectual
+property even in the digital realm: **The Blockchain**
+
+This project will apply the concepts of the Web3 world to text as intellectual property.
+Intellectual property can be a business again: **The Galactic Library
+Of Intellectual Property** has come to the rescue.
 
 
 # ebooks
