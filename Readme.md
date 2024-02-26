@@ -7,7 +7,7 @@ Hi everyone, I am Alex. I am going to launch the "Galactic Library of Intellectu
 
 GLIP introduces a Web3 based approach to redefining the business model of intellectual property. 
 
-Ebooks and also other textual content  is being "dissolved" into a database. That content will be offered on an "all-you-can-read" basis, not as "monolithic" entities. 
+Ebooks and also other textual content  is being "dissolved" into the GLIP. That content will be offered on an "all-you-can-read" basis, not as "monolithic" entities. 
 
 I am shifting the paradigm from ownership of entire texts to access to portions of content.
 
