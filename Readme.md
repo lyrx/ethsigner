@@ -54,8 +54,8 @@ a database: **Sell content, not ebooks.**
   -  Amount of **GLIP** tokens available for an ETH address is
      tracked in token contract 
 
-There can be muliple content providers. One **GLIP** token contract per provider. Each
-content provider will track used tokens individually. Available tokens will be tracked
+There can be muliple content providers. One **GLIP** token contract per organization (content provider). 
+Each content provider will track used tokens individually. Available tokens will be tracked
 in the smart contract.
 
 
