@@ -3,7 +3,13 @@
 
 ## Summary
 
-The "Galactic Library of Intellectual Property" **(GLIP)** introduces an innovative approach to redefining the business model of intellectual property. This project deconstructs ebooks and online articles into accessible and tradable segments, stored in databases. Content is offered on an "all-you-can-read" basis, rather than as complete works, shifting the paradigm from ownership of entire texts to access to portions of content.
+Hi everyone, I am Alex. I am going to launch the "Galactic Library of Intellectual Property" (GLIP) in 20+ days.
+
+GLIP introduces a Web3 based approach to redefining the business model of intellectual property. 
+
+Ebooks and also other textual content  is being "dissolved" into a database. That content will be offered on an "all-you-can-read" basis, not as "monolithic" entities. 
+
+I am shifting the paradigm from ownership of entire texts to access to portions of content.
 
 ## Overview 
 
@@ -39,6 +45,40 @@ Of Intellectual Property** has come to the rescue.
 
 This library will **dissolve** ebooks and make them accessable and tradable in slices, using
 a database: **Sell content, not ebooks.**
+
+## Concept + Roadmap
+
+- New ERC20 token contract for **GLIP** tokens.  
+- **GLIP** tokens will be used to track reads. 
+  -  Amount of **GLIP** tokens spent is tracked in a MongoDB
+  -  Amount of **GLIP** tokens available for an ETH address is
+     tracked in token contract 
+
+There can be muliple content providers. One **GLIP** token contract per provider. Each
+content provider will track used tokens individually. Available tokens will be tracked
+in the smart contract.
+
+
+## Roadmap
+
+- **Dissolve Dickens' novel** *"Great Expectations"*: Extract the epub and add it to MongoDB
+- Write a viewer for the book in the Next.js frontend
+- Place access restrictions on the frontend in such a way, that the book can only be 
+  accessed by registered users
+- Add reading tracker to MongoDB: Each read is tracked and an amount of GLIP tokens is calculated
+  
+
+
+
+## Protocols
+
+### Kickoff  26.02.2024
+
+- Keep tags updated and mark partners you're interested in. Maintaining current tags and identifying potential partners can significantly enhance network engagement and opportunities.
+
+
+
+
 
 ## Case Study: A Novel by Charles Dickens.
 
@@ -94,18 +134,10 @@ intended to be flexible, a decision on the specific content for the Proof of Con
 ###  2024/03/16
 ###  2024/03/17
 ###  2024/03/18
+
+DELIVERY DAY  !!!!!!!
+
 ###  2024/03/19
 ###  2024/03/20
-###  2024/03/21
-###  2024/03/22
-###  2024/03/23
-###  2024/03/24
-###  2024/03/25
-###  2024/03/26
-###  2024/03/27
-###  2024/03/28
-###  2024/03/29
-###  2024/03/30
-
 
 
