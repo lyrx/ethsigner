@@ -58,7 +58,7 @@ enables the novel to be linked with an **NFT**.
 
 ## Status
 
-### Monday 2024/02/26
+###  2024/03/26
 
 I am currently developing a roadmap that outlines key milestones for both the backend and frontend components of our project.
 
@@ -71,3 +71,41 @@ MetaMask authentication into the blog as a foundational step. Once the backend s
 I will shift focus to the frontend to introduce an NFT-powered subscription service for reading. The service aims to 
 be content-agnostic, potentially encompassing news, novels, literature, and even video. Although the architecture is
 intended to be flexible, a decision on the specific content for the Proof of Concept (POC) will be made shortly.
+
+###  2024/02/26
+###  2024/0227
+###  2024/02/28
+###  2024/02/29
+###  2024/03/01
+###  2024/03/02
+###  2024/03/03
+###  2024/03/04
+###  2024/03/05
+###  2024/03/06
+###  2024/03/07
+###  2024/03/08
+###  2024/03/09
+###  2024/03/10
+###  2024/03/11
+###  2024/03/12
+###  2024/03/13
+###  2024/03/14
+###  2024/03/15
+###  2024/03/16
+###  2024/03/17
+###  2024/03/18
+###  2024/03/19
+###  2024/03/20
+###  2024/03/21
+###  2024/03/22
+###  2024/03/23
+###  2024/03/24
+###  2024/03/25
+###  2024/03/26
+###  2024/03/27
+###  2024/03/28
+###  2024/03/29
+###  2024/03/30
+
+
+
