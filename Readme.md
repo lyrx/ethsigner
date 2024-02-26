@@ -60,8 +60,14 @@ enables the novel to be linked with an **NFT**.
 
 ### Monday 2024/02/26
 
-I am currently preparing a road map setting milestones for both backend and frontend. 
-Backend: Unpack epub ebooks and upload it to MongoDB while at the same time modifying and enriching the structure. There must be so much concept behind this, that I
-can generalize the method to other text formats. Frontend: Will be based on Next.js/Vercel, like my blog. I already took some time to hack into the blog and extend it by authentication based on MetaMask. When I did the initial basic steps on the backend I will go on with the frontend that will offer a NFT powered reading subscription service. The content is unspecified at the moment, it could be news, novel, all sorts of literature, even video. The basic archtiecture is supposed to be generic, but I will have to decide soon what really should be implemented for the POC. 
+I am currently developing a roadmap that outlines key milestones for both the backend and frontend components of our project.
 
+**Backend**: The focus is on deconstructing EPUB ebooks to upload their content into MongoDB, while also enhancing
+their structure. This process is designed to be adaptable, allowing for the method to be applied to various text
+formats in the future.
 
+**Frontend**: This will leverage Next.js/Vercel, building upon my blog's existing framework. I've integrated 
+MetaMask authentication into the blog as a foundational step. Once the backend setup is in progress,
+I will shift focus to the frontend to introduce an NFT-powered subscription service for reading. The service aims to 
+be content-agnostic, potentially encompassing news, novels, literature, and even video. Although the architecture is
+intended to be flexible, a decision on the specific content for the Proof of Concept (POC) will be made shortly.
