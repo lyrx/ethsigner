@@ -114,20 +114,9 @@ intended to be flexible, a decision on the specific content for the Proof of Con
 
 ###  2024/02/26
 
-Ich habe ein Tool geschrieben, welches eine EPUB-Datei entpackt und den gesamten Inhalt
-in die MongoDB schreibt. Da der eigentliche Text im XHTML-Format vorliegt, wird er gleichzeitig
-in das Markdown-Format konvertiert und ebenfalls in die Datenbank geschrieben. Der Grund dafür ist,
-dass der Reader im Frontend die Texte im Markdown-Format erwartet.
+I wrote a tool that unpacks an EPUB file and writes all of its contents into MongoDB. Since the actual text is in XHTML format, it is simultaneously converted into Markdown format and also written into the database. This is because the reader in the frontend expects texts in Markdown format. Initially, a single EPUB was written into the database to serve as a basis for the client's development. Next, the Vercel app needs to be adjusted so that MongoDB can be connected. Afterwards, a service will be written (as a "distributed function") that provides data for the frontend.
 
-Es wurde zunächst ein einziges EPUB in die Datenbank geschrieben, damit darauf aufbauend der Client
-entwickelt werden kann. 
-
-Als nächstes muss die Vercel-App so angepasst werden, dass die MongoDB angebunden werden kann. Danach
-wird ein Service geschrieben (als "distributed function"), welcher die Daten fürs Frontend zur Verfügung
-stellt.
-
-
-
+Developing a tool to seamlessly convert and store EPUB content in MongoDB marks a pivotal step in streamlining digital content management. By facilitating the conversion of XHTML to Markdown, this approach not only enhances the compatibility with frontend readers but also simplifies the development process of client applications. The integration with MongoDB and subsequent adaptation of the Vercel app are crucial for providing a robust service that efficiently serves content to users.
 
 
 ###  2024/0227
