@@ -113,6 +113,23 @@ be content-agnostic, potentially encompassing news, novels, literature, and even
 intended to be flexible, a decision on the specific content for the Proof of Concept (POC) will be made shortly.
 
 ###  2024/02/26
+
+Ich habe ein Tool geschrieben, welches eine EPUB-Datei entpackt und den gesamten Inhalt
+in die MongoDB schreibt. Da der eigentliche Text im XHTML-Format vorliegt, wird er gleichzeitig
+in das Markdown-Format konvertiert und ebenfalls in die Datenbank geschrieben. Der Grund dafür ist,
+dass der Reader im Frontend die Texte im Markdown-Format erwartet.
+
+Es wurde zunächst ein einziges EPUB in die Datenbank geschrieben, damit darauf aufbauend der Client
+entwickelt werden kann. 
+
+Als nächstes muss die Vercel-App so angepasst werden, dass die MongoDB angebunden werden kann. Danach
+wird ein Service geschrieben (als "distributed function"), welcher die Daten fürs Frontend zur Verfügung
+stellt.
+
+
+
+
+
 ###  2024/0227
 ###  2024/02/28
 ###  2024/02/29
