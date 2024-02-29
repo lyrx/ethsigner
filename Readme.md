@@ -119,8 +119,14 @@ I wrote a tool that unpacks an EPUB file and writes all of its contents into Mon
 Developing a tool to seamlessly convert and store EPUB content in MongoDB marks a pivotal step in streamlining digital content management. By facilitating the conversion of XHTML to Markdown, this approach not only enhances the compatibility with frontend readers but also simplifies the development process of client applications. The integration with MongoDB and subsequent adaptation of the Vercel app are crucial for providing a robust service that efficiently serves content to users.
 
 
-###  2024/0227
+###  2024/02/27
 ###  2024/02/28
+
+- We deployed a new ERC20 token 'WRT' to polygon mumbai testnet
+- We deployed a new  ERC721 NFT to polygon mumbai testnet
+- We started implementing the frontend based on Next.JS/Vercel
+
+
 ###  2024/02/29
 ###  2024/03/01
 ###  2024/03/02

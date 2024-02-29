@@ -1,18 +1,22 @@
 const mongo = require('../scripts/mongoclient')
-
+const assert = require('assert');
 
 async function run() {
-    let client
-    try {
-        // Connect the client to the server (optional starting in v4.7)
-        client =  await mongo.getClient().connect();
 
-        // Send a ping to confirm a successful connection
-        await client.db("admin").command({ ping: 1 });
-        console.log("Pinged your deployment. You successfully connected to MongoDB!");
+
+    const client = await mongo.getClient().connect();
+    async function pingTest() {
+        return  await client.db("admin").command({ping: 1}) ? true : false;
+
+    }
+
+    try {
+        assert(await pingTest()  )
+
     } finally {
         // Ensures that the client will close when you finish/error
-       client ?  await client.close() : console.log(`No client found.`)
+        client ? await client.close() : console.log(`No client found.`)
     }
 }
+
 run().catch(console.dir);
