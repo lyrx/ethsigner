@@ -131,6 +131,19 @@ Developing a tool to seamlessly convert and store EPUB content in MongoDB marks 
 ###  2024/03/01
 ###  2024/03/02
 ###  2024/03/03
+
+I started seeding the ebook database. For this project it is essential to have a large collection
+of ebooks that can be legally turned into NFTs and whose contents can legally be accessed. I believe
+this is the case with the books on Project Gutenberg. This project has a collection of around
+72943 ebooks, and I a very basic catalogue in various formats, freely available. I downloaded that
+catalog and started seeding our database with it. If everything goes well, I can be ready tomorrow.
+
+Second step will be to populate our frontend with these books and make them tradable on a 2nd layer testnet.
+
+I am very happy I found Krystian who can help me with the frontend.
+
+
+
 ###  2024/03/04
 ###  2024/03/05
 ###  2024/03/06
