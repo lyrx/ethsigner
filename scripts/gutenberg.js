@@ -17,6 +17,37 @@ function uniq(a) {
 module.exports = {
 
 
+    addShelveIfNeeded: async function (aShelve, client) {
+        const shelveObject = {name: aShelve}
+        const filter = {name: aShelve};
+        const update = {
+            $setOnInsert: shelveObject
+        };
+        const options = {upsert: true}
+
+        const database =  client.db(config.dbName);
+        const collection = database.collection(config.gutenBergShelves);
+        await collection.updateOne(filter, update, options)
+        return collection.findOne(filter)
+    },
+
+    addAllShelvesIfNeeded: async function (entry, client) {
+        const aShelveList = this.shelves(entry)
+        const res = []
+        for(const aIndex in aShelveList){
+            const aShelve = aShelveList[aIndex]
+            await res.push(await this.addShelveIfNeeded(aShelve, client))
+        }
+        return  uniq(res.map((r) => r._id.toString()))
+    },
+
+
+    shelves: function (entry) {
+        return uniq((entry.Bookshelves.split(';').
+        map(a => a.trim())).filter(ss => ss?.length > 0))
+    },
+
+
     addAllSubjectsIfNeeded: async function (entry, client) {
         const subjects = this.subjects(entry)
         const res = []

@@ -13,7 +13,7 @@ const sampleEntry = () => {
         "Authors": "Lincoln, Abraham, 1809-1865; Choate, Joseph Hodges, 1832-1917 [Contributor]; Roosevelt, Theodore, 1858-1919 [Contributor]; Schurz, Carl, 1829-1906 [Contributor]; Lapsley, Arthur Brooks [Editor]",
         "Subjects": "Lincoln, Abraham, 1809-1865; United States -- History -- Civil War, 1861-1865; Illinois -- Politics and government -- To 1865; United States -- Politics and government -- 1861-1865; United States -- Politics and government -- 1837-1841; Lincoln-Douglas Debates, Ill., 1858; Lincoln, Abraham, 1809-1865 -- Correspondence; United States -- Politics and government -- 1829-1837; United States -- Politics and government -- 1841-1845; United States -- Politics and government -- 1845-1861",
         "LoCC": "E456",
-        "Bookshelves": "US Civil War"
+        "Bookshelves": "US Civil War; Krieg ; Frieden;Frieden"
     }
 }
 
@@ -25,10 +25,29 @@ async function run() {
 
     console.log(`Number of books: ${books.length}`)
 
+
+    async function testAddAllShelvesIfNeeded() {
+        const res = await gutenberg.addAllShelvesIfNeeded(sampleEntry(), client)
+        return res.length == 3
+    }
+
+    async function testAddShelveIfNeeded() {
+        const shelves = gutenberg.shelves(sampleEntry())
+        const shelve = shelves[0]
+        await gutenberg.addShelveIfNeeded(shelve, client)
+        return true
+    }
+
+    async function testBookShelfs() {
+        const shelves = await gutenberg.shelves(sampleEntry())
+        return shelves.length == 3
+    }
+
     async function testAddAllSubjectsIfNeeded() {
         const res = await gutenberg.addAllSubjectsIfNeeded(sampleEntry(), client)
         return res.length == 11
     }
+
     async function testAddSubjectIfNeeded() {
         const subjects = gutenberg.subjects(sampleEntry())
         const subject = subjects[0]
@@ -115,6 +134,9 @@ async function run() {
         assert(await testSubjectStrings())
         assert(await testAddSubjectIfNeeded())
         assert(await testAddAllSubjectsIfNeeded())
+        assert(await testBookShelfs())
+        assert(await testAddShelveIfNeeded())
+        assert(await testAddAllShelvesIfNeeded())
 
     } finally {
         // Ensures that the client will close when you finish/error

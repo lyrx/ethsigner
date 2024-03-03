@@ -5,6 +5,7 @@ module.exports = {
      gutenBergBooksCollectionName : 'Gutenberg',
      gutenBergAuthorsCollectionName : 'GutenbergAuthors',
      gutenBergSubjectsName : 'GutenbergSubjects',
+     gutenBergShelves : 'GutenbergShelves',
 
 }
 
