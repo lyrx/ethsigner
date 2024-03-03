@@ -23,10 +23,10 @@ async function run() {
     const client = await mongo.getClient().connect();
     const books = await gutenberg.parseCSV(gutenBergCatalog)
 
+    console.log(`Number of books: ${books.length}`)
 
     async function testAddAllSubjectsIfNeeded() {
         const res = await gutenberg.addAllSubjectsIfNeeded(sampleEntry(), client)
-        console.log(res)
         return res.length == 11
     }
     async function testAddSubjectIfNeeded() {
@@ -45,7 +45,6 @@ async function run() {
 
     async function testAddAllAuthorsIfNeeded() {
         const res = await gutenberg.addAllAuthorsIfNeeded(sampleEntry(), client)
-        console.log(res)
         return res.length == 5
     }
 
