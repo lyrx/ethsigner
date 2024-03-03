@@ -153,3 +153,15 @@ DELIVERY DAY  !!!!!!!
 ###  2024/03/20
 
 
+# I am learning MongoDB
+
+```
+
+{"_id": {"$oid" : "65ddee2c438fd0582a4b965c"}}
+{"author": "Charles Dickens"}
+{"_id": {"$oid" : "65ddee2c438fd0582a4b965c"}, "author" : "Charles Dickens" }
+
+{"_id": {"$oid" : "65ddee2c438fd0582a4b965c"}, "author" : "Charles Dickens", "epub":{"EPUB/content.opf":1} }
+
+
+```

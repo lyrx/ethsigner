@@ -2,6 +2,9 @@
 
 module.exports = {
      dbName : 'DocumentLibrary',
-     collectionName : 'Ebooks'
+     gutenBergBooksCollectionName : 'Gutenberg',
+     gutenBergAuthorsCollectionName : 'GutenbergAuthors',
+     gutenBergSubjectsName : 'GutenbergSubjects',
+
 }
 
